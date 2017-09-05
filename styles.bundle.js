@@ -1,12 +1,5 @@
 webpackJsonp([2],{
 
-/***/ "../../../../../src/assets/fonts/customFont.woff2":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "customFont.68b24b48f11ff8e94797.woff2";
-
-/***/ }),
-
 /***/ "../../../../../src/styles.css":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -42,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.push([module.i, "@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css);", ""]);
 
 // module
-exports.push([module.i, "  /* You can add global styles to this file, and also import other style files */\n  @font-face {\n    font-family: \"customFont\";\n    src: url(" + __webpack_require__("../../../../../src/assets/fonts/customFont.woff2") + ") format(\"woff2\");\n  }\n\n  * {\n    font-family: customFont !important;\n  }\n\n  body {\n    padding: 1em 0em 2em 0em;\n  }\n\n  @media screen and (min-width: 576px) {\n    body {\n      background: white;\n      padding: 1em 5em 2em 5em;\n    }\n  }\n  /* Global CSS Rules */\n\n  .text-align-center {\n    text-align: center;\n  }\n", ""]);
+exports.push([module.i, "  /* You can add global styles to this file, and also import other style files */\n\n  * {\n    font-family: 'Roboto', sans-serif;\n  }\n\n  body {\n    padding: 1em 0em 2em 0em;\n  }\n\n  @media screen and (min-width: 576px) {\n    body {\n      background: white;\n      padding: 1em 5em 2em 5em;\n    }\n  }\n  /* Global CSS Rules */\n\n  .text-align-center {\n    text-align: center;\n  }\n", ""]);
 
 // exports
 
